@@ -20,7 +20,7 @@ body{
 #main_wrapper{
     background-image: url(./images/yellow_background.png);
     color: #181818;
-    height: 99%;
+    height: 100%;
     width: 95%;
     font-size: 1.6rem;
     display: inline-block;
@@ -29,6 +29,7 @@ body{
 .title{
     font-family: 'Day rom';
     text-transform: uppercase;
+    text-align: center;
 }
 
 #banner_image{
@@ -159,10 +160,17 @@ a:hover{
 
 .section_body1{
     display: flex;
+    text-align: center;
+    
 }
-
+.ico_categorie{
+    align-items: center;
+}
 .section_image{
     margin: 0 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    width: 7%;
 }
 
 .section_body2{
@@ -170,6 +178,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     text-align: left;
+   
 }
 
 .main_section_about{
