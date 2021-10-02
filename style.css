@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'Day rom';
+    src: url(fonts/day_roman/DAYROM__.ttf);
+    font-style:normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'BallParkWeiner';
+    src: url(fonts/ballpark_weiner/BALLW___.TTF);
+}
+:root{
+    font-size: 10px;
+    font-family: 'Trebuchet MS', Arial, sans-sserif;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+#main_wrapper{
+    background-image: url(./images/yellow_background.png);
+    color: #181818;
+    height: 99%;
+    width: 95%;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+
+.title{
+    font-family: 'Day rom';
+    text-transform: uppercase;
+}
+
+#banner_image{
+    background-image: url(./images/line.png);
+
+}
+
+
+/* --------------------- HEADER CSS Start  */
+.main_title{
+    font-family: 'BallParkWeiner';
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+
+.travelTitle{
+    font-family: 'Day rom';
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.main1{
+    display: flex;
+    flex-direction: row;
+}
+.main_logo{
+    margin-right: 2rem;
+}
+
+.main2{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid #760001;
+}
+
+.main2_title{
+    flex: 1;
+}
+.main2_nav{
+    flex: 6;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+li{
+    margin: 0 .5rem;
+    font-family: 'Day rom';
+    text-transform: uppercase;
+    transition: ease-in-out .2s;
+    font-size: 1.3em
+
+}
+
+
+    
+
+li:hover{
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #181818;
+}
+
+a:hover{
+    color: #760001;
+    
+}
+
+/* --------------------- HEADER CSS END  */
+
+
+/* --------------------- Banner Image CSS Start  */
+
+#banner_image{
+    background-image: url(./images/sanfrancisco.jpg);
+    border-radius: 1.5rem;
+    height: 20rem;
+    background-size: cover;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    flex-direction: column;
+   
+}
+
+#banner_description{
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    padding: 1rem;
+
+}
+
+.red_button{
+    background-image: url(./images/red_background.png);
+    background-size: cover;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid #760001;
+    
+}
+
+
+/* --------------------- Banner Image CSS END  */
+
+/* --------------------- Body CSS END  */
+.main_section{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.main_section_content{
+   flex: 3;
+   padding: .5rem;
+}
+
+.section_body1{
+    display: flex;
+}
+
+.section_image{
+    margin: 0 0.7rem;
+}
+
+.section_body2{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.main_section_about{
+    flex: 1;
+    background-color: #706b64;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Day rom';
+    text-transform: uppercase;
+    font-size: 0.8em;
+    justify-content: space-between;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: .5rem;
+}
+
+.about_header{
+    align-self: flex-start;
+}
+
+/* --------------------- Body CSS END  */
+
+/* --------------------- FOOTER CSS START */
+.main_footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+
+
+.footer1{
+    flex: 1;
+    font-family: 'Day rom';
+    text-transform: uppercase;
+}
+
+#tweet{
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+    
+.footer2{
+    flex: 1;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;;   
+
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: blue;
+   
+}
+
+
+.footer3{
+    flex: 1;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+
+}
+
+.footerUL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer_ul{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    list-style-image: url(./images/external_link.png);
+}
+
+.title_footer{
+    font-family: 'Day rom';
+    font-size: .8em;
+    text-transform: uppercase;
+    
+}
+/* --------------------- FOOTER CSS END  */
